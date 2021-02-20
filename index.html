@@ -34,14 +34,14 @@
 
 <body>
 
-	<header class="header_nav-header_position header_nav-header_view">
+	<header id="home" class="header_nav-header_position header_nav-header_view">
 
 		<!-- Меню -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light nav_wrapper_position nav_wrapper_view">
 
 			<!-- Логотип -->
 			<a class="navbar-brand a_img-logo_position" href="#!">
-				<img class="img_logo_position img_logo_view" src="img/header_svg_logo-white.svg" alt="Логотип">
+				<img class="img_logo_position img_logo_view" src="img/wr_logo_short-white.svg" alt="Логотип">
 			</a>
 
 			<!-- Кнопка меню для планшетов и мобильных -->
@@ -94,10 +94,10 @@
 
 		<div class="wrapper_title_position">
 			<!-- Главный заголовок -->
-			<h1 class="h1_text_position h1_text_view">WR-video <br> production</h1>
+			<!-- <h1 class="h1_text_position h1_text_view">WR-video <br> production</h1> -->
 
 			<!-- Крупный Логотип вместо надписи -->
-			<!-- <img class="img_title-logo_position img_title-logo_view" src="img/header_svg_logo-white.svg" alt="Логотип"> -->
+			<img class="img_title-logo_position img_title-logo_view" src="img/header_svg_logo-white.svg" alt="Логотип">
 
 			<!-- Второстепенный заголовок -->
 			<h2 class="h2_text_position h2_text_view">Современная, качественная видеосъемка в Самаре и не только, по
@@ -328,7 +328,7 @@
 
 	</section>
 
-	<section class="section_section-reviews_position section_section-reviews_view">
+	<section id="reviews" class="section_section-reviews_position section_section-reviews_view">
 
 		<h2 class="global--h3_title_position global--h3_title_view">Нам доверяют</h2>
 
@@ -356,10 +356,12 @@
 
 				<div class="col">
 					<!-- Кнопка вызова модального окна -->
-					<button class="button_wrapper-img-review_position button_wrapper-img-review_view" data-toggle="modal" data-target="#reviews-1" type="button">
+					<button class="button_wrapper-img-review_position button_wrapper-img-review_view"
+						data-toggle="modal" data-target="#reviews-1" type="button">
 						<img class="img_img-review_position img_img-review_view" src="img/review.jpg" alt="">
 						<div class="button_overlay-img-review_position button_overlay-img-review_view">
-							<i class="fa fa-expand i_overlay-icon-review_position i_overlay-icon-review_view" aria-hidden="true"></i>
+							<i class="fa fa-expand i_overlay-icon-review_position i_overlay-icon-review_view"
+								aria-hidden="true"></i>
 						</div>
 					</button>
 
@@ -380,10 +382,12 @@
 
 				<div class="col">
 					<!-- Кнопка вызова модального окна -->
-					<button class="button_wrapper-img-review_position button_wrapper-img-review_view" data-toggle="modal" data-target="#reviews-2" type="button">
+					<button class="button_wrapper-img-review_position button_wrapper-img-review_view"
+						data-toggle="modal" data-target="#reviews-2" type="button">
 						<img class="img_img-review_position img_img-review_view" src="img/review-2.jpg" alt="">
 						<div class="button_overlay-img-review_position button_overlay-img-review_view">
-							<i class="fa fa-expand i_overlay-icon-review_position i_overlay-icon-review_view" aria-hidden="true"></i>
+							<i class="fa fa-expand i_overlay-icon-review_position i_overlay-icon-review_view"
+								aria-hidden="true"></i>
 						</div>
 					</button>
 
@@ -404,10 +408,12 @@
 
 				<div class="col">
 					<!-- Кнопка вызова модального окна -->
-					<button class="button_wrapper-img-review_position button_wrapper-img-review_view" data-toggle="modal" data-target="#reviews-3" type="button">
+					<button class="button_wrapper-img-review_position button_wrapper-img-review_view"
+						data-toggle="modal" data-target="#reviews-3" type="button">
 						<img class="img_img-review_position img_img-review_view" src="img/review-3.jpg" alt="">
 						<div class="button_overlay-img-review_position button_overlay-img-review_view">
-							<i class="fa fa-expand i_overlay-icon-review_position i_overlay-icon-review_view" aria-hidden="true"></i>
+							<i class="fa fa-expand i_overlay-icon-review_position i_overlay-icon-review_view"
+								aria-hidden="true"></i>
 						</div>
 					</button>
 
@@ -428,10 +434,12 @@
 
 				<div class="col">
 					<!-- Кнопка вызова модального окна -->
-					<button class="button_wrapper-img-review_position button_wrapper-img-review_view" data-toggle="modal" data-target="#reviews-4" type="button">
+					<button class="button_wrapper-img-review_position button_wrapper-img-review_view"
+						data-toggle="modal" data-target="#reviews-4" type="button">
 						<img class="img_img-review_position img_img-review_view" src="img/review-4.jpg" alt="">
 						<div class="button_overlay-img-review_position button_overlay-img-review_view">
-							<i class="fa fa-expand i_overlay-icon-review_position i_overlay-icon-review_view" aria-hidden="true"></i>
+							<i class="fa fa-expand i_overlay-icon-review_position i_overlay-icon-review_view"
+								aria-hidden="true"></i>
 						</div>
 					</button>
 
@@ -455,54 +463,115 @@
 
 	</section>
 
-<section class="section_section-contacts_position section_section-contacts_view">
+	<section id="contacts" class="section_section-contacts_position section_section-contacts_view">
 
-	<h2 class="global--h2_heading_position global--h2_heading_view">Контакты</h2>
+		<h2 class="global--h2_heading_position global--h2_heading_view">Контакты</h2>
 
-	<!-- Список контактов -->
-	<ul class="ul_wrapper-contacts_position">
-		<li class="li_contact_position li_contact_view">
-			<a class="a_contact_view" href="#!">
-				<i class="fa fa-envelope i_contact_position" aria-hidden="true"></i>
-				wr-video@mail.ru
-			</a>
-		</li>
-		<li class="li_contact_position li_contact_view">
-			<a class="a_contact_view" href="#!">
-				<i class="fa fa-mobile i_contact_position" aria-hidden="true"></i>
-				8 (123) 456-78-90
-			</a>
-		</li>
-		<li class="li_contact_position li_contact_view">
-			<a class="a_contact_view" href="#!">
-				<i class="fa fa-youtube i_contact_position" aria-hidden="true"></i>
-				Канал на YouTube
-			</a>
-		</li>
-		<li class="li_contact_position li_contact_view">
-			<a class="a_contact_view" href="#!">
-				<i class="fa fa-instagram i_contact_position" aria-hidden="true"></i>
-				Мы в Instagram
-			</a>
-		</li>
-		<li class="li_contact_position li_contact_view">
-			<a class="a_contact_view" href="#!">
-				<i class="fa fa-vk i_contact_position" aria-hidden="true"></i>
-				Группа в VK
-			</a>
-		</li>
-	</ul>
-	<!-- Список контактов_end -->
+		<!-- Список контактов -->
+		<ul class="ul_wrapper-contacts_position">
+			<li class="li_contact_position li_contact_view">
+				<a class="a_contact_view" href="#!">
+					<i class="fa fa-envelope i_contact_position" aria-hidden="true"></i>
+					wr-video@mail.ru
+				</a>
+			</li>
+			<li class="li_contact_position li_contact_view">
+				<a class="a_contact_view" href="#!">
+					<i class="fa fa-mobile i_contact_position" aria-hidden="true"></i>
+					8 (123) 456-78-90
+				</a>
+			</li>
+			<li class="li_contact_position li_contact_view">
+				<a class="a_contact_view" href="#!">
+					<i class="fa fa-youtube i_contact_position" aria-hidden="true"></i>
+					Канал на YouTube
+				</a>
+			</li>
+			<li class="li_contact_position li_contact_view">
+				<a class="a_contact_view" href="#!">
+					<i class="fa fa-instagram i_contact_position" aria-hidden="true"></i>
+					Мы в Instagram
+				</a>
+			</li>
+			<li class="li_contact_position li_contact_view">
+				<a class="a_contact_view" href="#!">
+					<i class="fa fa-vk i_contact_position" aria-hidden="true"></i>
+					Группа в VK
+				</a>
+			</li>
+		</ul>
+		<!-- Список контактов_end -->
 
-	<!-- Кнопка, "Написать письмо" -->
-	<div class="wrapper_button-mail_position">
-		<a class="a_button-mail_view" href="#!">
-			<i class="fa fa-envelope-open i_button-mail_position" aria-hidden="true"></i>
-			Написать письмо
-		</a>
-	</div>
+		<!-- Кнопка, "Написать письмо" -->
+		<div class="wrapper_button-mail_position">
+			<a class="a_button-mail_view" href="#!">
+				<i class="fa fa-envelope-open i_button-mail_position" aria-hidden="true"></i>
+				Написать письмо
+			</a>
+		</div>
 
-</section>
+	</section>
+
+	<footer class="footer_bg_view">
+		<div class="container container_wrapper-footer_position">
+			<div class="row">
+
+			<div class="col-lg-6">
+
+				<!-- Логотип -->
+				<a class="a_img-logo-footer_position" href="#home">
+					<img class="img_logo-footer_position img_logo-footer_view" src="img/header_svg_logo-white.svg" alt="Логотип">
+				</a>
+
+				<!-- Дублированное меню -->
+				<div class="wrapper_footer-menu_position">
+					<p class="p_footer-menu_view p_footer-menu_position">Меню сайта</p>
+					<ul class="ul_footer-menu_view ul_footer-menu_position">
+						<a href="#home" class="a_footer-menu-link_view a_footer-menu-link_position">
+							<li class="li_footer-menu-text_view li_footer-menu-text_position">Главная</li>
+						</a>
+						<a href="#service" class="a_footer-menu-link_view a_footer-menu-link_position">
+							<li class="li_footer-menu-text_view li_footer-menu-text_position">Услуги</li>
+						</a>
+						<!-- <a href="#offers" class="a_footer-menu-link_view a_footer-menu-link_position">
+							<li class="li_footer-menu-text_view li_footer-menu-text_position">Предложения</li>
+						</a> -->
+						<a href="#about-us" class="a_footer-menu-link_view a_footer-menu-link_position">
+							<li class="li_footer-menu-text_view li_footer-menu-text_position">О нас</li>
+						</a>
+						<a href="#reviews" class="a_footer-menu-link_view a_footer-menu-link_position">
+							<li class="li_footer-menu-text_view li_footer-menu-text_position">Отзывы</li>
+						</a>
+						<a href="#contacts" class="a_footer-menu-link_view a_footer-menu-link_position">
+							<li class="li_footer-menu-text_view li_footer-menu-text_position">Контакты</li>
+						</a>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="col-lg-6">
+				
+				<!-- Блок "О сайте" -->
+				<div class="wrapper_footer-text_position">
+					<p class="p_footer-title_view p_footer-title_position">О сайте</p>
+					<p class="p_footer-text_view p_footer-text_position">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti nobis rem ipsam, harum similique illo praesentium, adipisci eum voluptatem quis, quia autem! Nihil vel enim autem iure nobis nesciunt ab!</p>
+				</div>
+				<div class="wrapper_logo-footer-box-right_position">
+					<a class="a_img-logo-footer_view" href="https://web-wild-fox.ru/" target="_blank">
+						<img class="img_logo-footer-right_view img_logo-footer-right_position" src="img/WWF_new-light.svg" alt="Логотип">
+						<p class="p_logo-footer-text-right_view p_logo-footer-text-right_position">made by web-wild-fox.ru</p>
+					</a>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+
+		<!--Динамический Копирайт -->
+		<p class="footer__copyright-text">© WR-video <script type="text/javascript">dt = new Date();document.write(dt.getFullYear());</script></p>
+
+	</footer>
 
 	<script src="js/scripts.min.js"></script>
 
